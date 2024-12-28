@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+input,
+button,
+textarea {
+  background-color: #fff;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3d3d3d;
+  color: #f1f1f1;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading__primary {
+  font-size: 7rem;
+  order: 2;
+  text-shadow: 1.5rem 1.5rem 2.5rem #000;
+}
+
+.adidas {
+  width: 20.5rem;
+  height: 12.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.adidas__shape {
+  width: 4.6rem;
+  height: 15rem;
+  position: absolute;
+  background-color: #f1f1f1;
+  rotate: -31deg;
+}
+.adidas__shape-01 {
+  top: 8.6rem;
+  left: 3.6rem;
+  box-shadow: -0.2rem 0rem 0.5rem #000;
+}
+.adidas__shape-02 {
+  top: 4.5rem;
+  left: 8.2rem;
+  box-shadow: -0.2rem 0rem 0.5rem #000;
+}
+.adidas__shape-03 {
+  top: 0.5rem;
+  left: 12.9rem;
+  box-shadow: -0.2rem 0rem 0.5rem #000;
+}
